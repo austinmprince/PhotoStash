@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D7637947FA5ABC9E14669F8 /* Pods_PhotoStash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE48F323CD461C4991EA815 /* Pods_PhotoStash.framework */; };
+		371121AF207E51B600210B5F /* InviteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371121AE207E51B600210B5F /* InviteTableViewCell.swift */; };
+		371121B1207E556500210B5F /* AlbumInvitationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371121B0207E556500210B5F /* AlbumInvitationTableViewController.swift */; };
+		371121B3207E57AE00210B5F /* AlbumInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371121B2207E57AE00210B5F /* AlbumInvite.swift */; };
+		3717DD07207D10A400E8512C /* SelectTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3717DD06207D10A400E8512C /* SelectTimeTableViewCell.swift */; };
+		372B1088207A6AC000521921 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B1087207A6ABF00521921 /* TagCell.swift */; };
+		372B108A207A6E0400521921 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B1089207A6E0400521921 /* FlowLayout.swift */; };
+		374154CE2083069400D7F0D9 /* RegisterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374154CD2083069400D7F0D9 /* RegisterNameViewController.swift */; };
+		37644F4C20422ED0001ACC1E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37644F4B20422ED0001ACC1E /* LoginViewController.swift */; };
+		37644F4E20423319001ACC1E /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37644F4D20423319001ACC1E /* DataHandler.swift */; };
+		378E6F0E202A884A0072DDB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E6F0D202A884A0072DDB6 /* AppDelegate.swift */; };
+		378E6F10202A884A0072DDB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E6F0F202A884A0072DDB6 /* ViewController.swift */; };
+		378E6F13202A884A0072DDB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378E6F11202A884A0072DDB6 /* Main.storyboard */; };
+		378E6F15202A884A0072DDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378E6F14202A884A0072DDB6 /* Assets.xcassets */; };
+		378E6F18202A884A0072DDB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378E6F16202A884A0072DDB6 /* LaunchScreen.storyboard */; };
+		378E6F23202A884A0072DDB6 /* PhotoStashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E6F22202A884A0072DDB6 /* PhotoStashTests.swift */; };
+		378E6F2E202A884A0072DDB6 /* PhotoStashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378E6F2D202A884A0072DDB6 /* PhotoStashUITests.swift */; };
+		37942B4420424D3500249191 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37942B4220424D3500249191 /* OpenSans-Regular.ttf */; };
+		37942B4520424D3500249191 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37942B4320424D3500249191 /* OpenSans-SemiBold.ttf */; };
+		379E214E2080FEDB004A0A96 /* PhotoStashAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E214D2080FEDB004A0A96 /* PhotoStashAlertController.swift */; };
+		37A07133203BE92300F85C7F /* CreateAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A07132203BE92300F85C7F /* CreateAlbumViewController.swift */; };
+		37ACE6E02040DB97004B3B55 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ACE6DF2040DB97004B3B55 /* PhotosViewController.swift */; };
+		37ACE6E22040DCD8004B3B55 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ACE6E12040DCD8004B3B55 /* Photo.swift */; };
+		37ACE6E42040E06C004B3B55 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ACE6E32040E06C004B3B55 /* PhotoCollectionViewCell.swift */; };
+		37AE416F202BC3830070FC41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37AE416E202BC3830070FC41 /* GoogleService-Info.plist */; };
+		37AE4170202BC3830070FC41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37AE416E202BC3830070FC41 /* GoogleService-Info.plist */; };
+		37AE4171202BC3830070FC41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37AE416E202BC3830070FC41 /* GoogleService-Info.plist */; };
+		37B6290F207A69A200E965D3 /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B6290E207A69A200E965D3 /* TagCell.xib */; };
+		37D945092083AE9A001E67B9 /* RegisterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D945082083AE9A001E67B9 /* RegisterEmailViewController.swift */; };
+		37D9450B2083AEAC001E67B9 /* RegisterPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9450A2083AEAC001E67B9 /* RegisterPasswordViewController.swift */; };
+		37EC68FA2033BAE0009ECC21 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC68F92033BAE0009ECC21 /* Album.swift */; };
+		37EC68FC2033BB2F009ECC21 /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC68FB2033BB2F009ECC21 /* FakeData.swift */; };
+		37EC69012033C06B009ECC21 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC69002033C06A009ECC21 /* AlbumCollectionViewCell.swift */; };
+		37FF517E20377FC100E81150 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FF517D20377FC100E81150 /* AlbumsViewController.swift */; };
+		37FF5180203784E200E81150 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FF517F203784E200E81150 /* AlbumTableViewCell.swift */; };
+		555D2E61FE25796AD135F873 /* Pods_PhotoStashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CCBA2D87027F8F898874BE /* Pods_PhotoStashTests.framework */; };
+		7FBFED12202E73F800766DCA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFED11202E73F800766DCA /* SignUpViewController.swift */; };
+		7FBFED1A20337F9100766DCA /* AlbumCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFED1920337F9100766DCA /* AlbumCollectionViewController.swift */; };
+		CDE807206CA90D03A8BE5334 /* Pods_PhotoStashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43A8EE6990D12AFC01D45F /* Pods_PhotoStashUITests.framework */; };
+		D93EE7352083CBF1002A4C43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EE7342083CBF1002A4C43 /* User.swift */; };
+		D99653CE20869F570094D209 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D99653CD20869F570094D209 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		378E6F1F202A884A0072DDB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378E6F02202A884A0072DDB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378E6F09202A884A0072DDB6;
+			remoteInfo = PhotoStash;
+		};
+		378E6F2A202A884A0072DDB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378E6F02202A884A0072DDB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378E6F09202A884A0072DDB6;
+			remoteInfo = PhotoStash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1171A0ACB98B92F164405442 /* Pods-PhotoStash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStash.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash.release.xcconfig"; sourceTree = "<group>"; };
+		29CCBA2D87027F8F898874BE /* Pods_PhotoStashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoStashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		371121AE207E51B600210B5F /* InviteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteTableViewCell.swift; sourceTree = "<group>"; };
+		371121B0207E556500210B5F /* AlbumInvitationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumInvitationTableViewController.swift; sourceTree = "<group>"; };
+		371121B2207E57AE00210B5F /* AlbumInvite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumInvite.swift; sourceTree = "<group>"; };
+		3717DD06207D10A400E8512C /* SelectTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeTableViewCell.swift; sourceTree = "<group>"; };
+		372B1087207A6ABF00521921 /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		372B1089207A6E0400521921 /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		374154CD2083069400D7F0D9 /* RegisterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameViewController.swift; sourceTree = "<group>"; };
+		37644F4B20422ED0001ACC1E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		37644F4D20423319001ACC1E /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		378E6F0A202A884A0072DDB6 /* PhotoStash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoStash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378E6F0D202A884A0072DDB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378E6F0F202A884A0072DDB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		378E6F12202A884A0072DDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378E6F14202A884A0072DDB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378E6F17202A884A0072DDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378E6F19202A884A0072DDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378E6F1E202A884A0072DDB6 /* PhotoStashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoStashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		378E6F22202A884A0072DDB6 /* PhotoStashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStashTests.swift; sourceTree = "<group>"; };
+		378E6F24202A884A0072DDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378E6F29202A884A0072DDB6 /* PhotoStashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoStashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		378E6F2D202A884A0072DDB6 /* PhotoStashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStashUITests.swift; sourceTree = "<group>"; };
+		378E6F2F202A884A0072DDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37942B4220424D3500249191 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		37942B4320424D3500249191 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		379E214D2080FEDB004A0A96 /* PhotoStashAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStashAlertController.swift; sourceTree = "<group>"; };
+		37A07132203BE92300F85C7F /* CreateAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAlbumViewController.swift; sourceTree = "<group>"; };
+		37ACE6DF2040DB97004B3B55 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		37ACE6E12040DCD8004B3B55 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		37ACE6E32040E06C004B3B55 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		37AE416E202BC3830070FC41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37B6290E207A69A200E965D3 /* TagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCell.xib; sourceTree = "<group>"; };
+		37D945082083AE9A001E67B9 /* RegisterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailViewController.swift; sourceTree = "<group>"; };
+		37D9450A2083AEAC001E67B9 /* RegisterPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPasswordViewController.swift; sourceTree = "<group>"; };
+		37EC68F92033BAE0009ECC21 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		37EC68FB2033BB2F009ECC21 /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
+		37EC69002033C06A009ECC21 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		37FF517D20377FC100E81150 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		37FF517F203784E200E81150 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		5DB3D14DA83B775CC1C191AA /* Pods-PhotoStashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashTests/Pods-PhotoStashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FBFED11202E73F800766DCA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7FBFED1920337F9100766DCA /* AlbumCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewController.swift; sourceTree = "<group>"; };
+		B7F0C0B0A74CC4E2044971BF /* Pods-PhotoStash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash.debug.xcconfig"; sourceTree = "<group>"; };
+		C4E7CC8E4FA47B8A354BEE8F /* Pods-PhotoStashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashTests/Pods-PhotoStashTests.release.xcconfig"; sourceTree = "<group>"; };
+		D483FD46D95793E73BE64886 /* Pods-PhotoStashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashUITests/Pods-PhotoStashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D93EE7342083CBF1002A4C43 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D99653CD20869F570094D209 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB43A8EE6990D12AFC01D45F /* Pods_PhotoStashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoStashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4C8453AFA6FD9577671995 /* Pods-PhotoStashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoStashUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoStashUITests/Pods-PhotoStashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBE48F323CD461C4991EA815 /* Pods_PhotoStash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoStash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378E6F07202A884A0072DDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7637947FA5ABC9E14669F8 /* Pods_PhotoStash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378E6F1B202A884A0072DDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555D2E61FE25796AD135F873 /* Pods_PhotoStashTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378E6F26202A884A0072DDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE807206CA90D03A8BE5334 /* Pods_PhotoStashUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DF2A3F91CD2C5AC94FDF108 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBE48F323CD461C4991EA815 /* Pods_PhotoStash.framework */,
+				29CCBA2D87027F8F898874BE /* Pods_PhotoStashTests.framework */,
+				DB43A8EE6990D12AFC01D45F /* Pods_PhotoStashUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		378E6F01202A884A0072DDB6 = {
+			isa = PBXGroup;
+			children = (
+				37942B4120424D0100249191 /* Resources */,
+				378E6F0C202A884A0072DDB6 /* PhotoStash */,
+				378E6F21202A884A0072DDB6 /* PhotoStashTests */,
+				378E6F2C202A884A0072DDB6 /* PhotoStashUITests */,
+				378E6F0B202A884A0072DDB6 /* Products */,
+				BD7288E8B89699CD1A254E08 /* Pods */,
+				0DF2A3F91CD2C5AC94FDF108 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		378E6F0B202A884A0072DDB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378E6F0A202A884A0072DDB6 /* PhotoStash.app */,
+				378E6F1E202A884A0072DDB6 /* PhotoStashTests.xctest */,
+				378E6F29202A884A0072DDB6 /* PhotoStashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378E6F0C202A884A0072DDB6 /* PhotoStash */ = {
+			isa = PBXGroup;
+			children = (
+				37D945082083AE9A001E67B9 /* RegisterEmailViewController.swift */,
+				37D9450A2083AEAC001E67B9 /* RegisterPasswordViewController.swift */,
+				3717DD06207D10A400E8512C /* SelectTimeTableViewCell.swift */,
+				378E6F0D202A884A0072DDB6 /* AppDelegate.swift */,
+				378E6F0F202A884A0072DDB6 /* ViewController.swift */,
+				378E6F11202A884A0072DDB6 /* Main.storyboard */,
+				37644F4B20422ED0001ACC1E /* LoginViewController.swift */,
+				374154CD2083069400D7F0D9 /* RegisterNameViewController.swift */,
+				37ACE6E32040E06C004B3B55 /* PhotoCollectionViewCell.swift */,
+				37ACE6DF2040DB97004B3B55 /* PhotosViewController.swift */,
+				379E214D2080FEDB004A0A96 /* PhotoStashAlertController.swift */,
+				37ACE6E12040DCD8004B3B55 /* Photo.swift */,
+				37FF517D20377FC100E81150 /* AlbumsViewController.swift */,
+				37FF517F203784E200E81150 /* AlbumTableViewCell.swift */,
+				372B1089207A6E0400521921 /* FlowLayout.swift */,
+				37A07132203BE92300F85C7F /* CreateAlbumViewController.swift */,
+				371121AE207E51B600210B5F /* InviteTableViewCell.swift */,
+				371121B0207E556500210B5F /* AlbumInvitationTableViewController.swift */,
+				371121B2207E57AE00210B5F /* AlbumInvite.swift */,
+				378E6F14202A884A0072DDB6 /* Assets.xcassets */,
+				378E6F16202A884A0072DDB6 /* LaunchScreen.storyboard */,
+				378E6F19202A884A0072DDB6 /* Info.plist */,
+				7FBFED11202E73F800766DCA /* SignUpViewController.swift */,
+				37EC69002033C06A009ECC21 /* AlbumCollectionViewCell.swift */,
+				37EC68F92033BAE0009ECC21 /* Album.swift */,
+				37EC68FB2033BB2F009ECC21 /* FakeData.swift */,
+				D99653CD20869F570094D209 /* GoogleService-Info.plist */,
+				372B1087207A6ABF00521921 /* TagCell.swift */,
+				37B6290E207A69A200E965D3 /* TagCell.xib */,
+				7FBFED1920337F9100766DCA /* AlbumCollectionViewController.swift */,
+				37644F4D20423319001ACC1E /* DataHandler.swift */,
+				D93EE7342083CBF1002A4C43 /* User.swift */,
+			);
+			path = PhotoStash;
+			sourceTree = "<group>";
+		};
+		378E6F21202A884A0072DDB6 /* PhotoStashTests */ = {
+			isa = PBXGroup;
+			children = (
+				378E6F22202A884A0072DDB6 /* PhotoStashTests.swift */,
+				378E6F24202A884A0072DDB6 /* Info.plist */,
+				37AE416E202BC3830070FC41 /* GoogleService-Info.plist */,
+			);
+			path = PhotoStashTests;
+			sourceTree = "<group>";
+		};
+		378E6F2C202A884A0072DDB6 /* PhotoStashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				378E6F2D202A884A0072DDB6 /* PhotoStashUITests.swift */,
+				378E6F2F202A884A0072DDB6 /* Info.plist */,
+			);
+			path = PhotoStashUITests;
+			sourceTree = "<group>";
+		};
+		37942B4120424D0100249191 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37942B4220424D3500249191 /* OpenSans-Regular.ttf */,
+				37942B4320424D3500249191 /* OpenSans-SemiBold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD7288E8B89699CD1A254E08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7F0C0B0A74CC4E2044971BF /* Pods-PhotoStash.debug.xcconfig */,
+				1171A0ACB98B92F164405442 /* Pods-PhotoStash.release.xcconfig */,
+				5DB3D14DA83B775CC1C191AA /* Pods-PhotoStashTests.debug.xcconfig */,
+				C4E7CC8E4FA47B8A354BEE8F /* Pods-PhotoStashTests.release.xcconfig */,
+				D483FD46D95793E73BE64886 /* Pods-PhotoStashUITests.debug.xcconfig */,
+				ED4C8453AFA6FD9577671995 /* Pods-PhotoStashUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378E6F09202A884A0072DDB6 /* PhotoStash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378E6F32202A884A0072DDB6 /* Build configuration list for PBXNativeTarget "PhotoStash" */;
+			buildPhases = (
+				525E357B56F2989F7275B5DA /* [CP] Check Pods Manifest.lock */,
+				378E6F06202A884A0072DDB6 /* Sources */,
+				378E6F07202A884A0072DDB6 /* Frameworks */,
+				378E6F08202A884A0072DDB6 /* Resources */,
+				ECC99640A14F9A03DA1B550E /* [CP] Embed Pods Frameworks */,
+				3ABEFD97AB38DF50222C4C8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoStash;
+			productName = PhotoStash;
+			productReference = 378E6F0A202A884A0072DDB6 /* PhotoStash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378E6F1D202A884A0072DDB6 /* PhotoStashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378E6F35202A884A0072DDB6 /* Build configuration list for PBXNativeTarget "PhotoStashTests" */;
+			buildPhases = (
+				2F0ED8E415ACD30EF54BF5AD /* [CP] Check Pods Manifest.lock */,
+				378E6F1A202A884A0072DDB6 /* Sources */,
+				378E6F1B202A884A0072DDB6 /* Frameworks */,
+				378E6F1C202A884A0072DDB6 /* Resources */,
+				86F75892304EA1C0EB367850 /* [CP] Embed Pods Frameworks */,
+				DF5662BB205F29C1052519BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378E6F20202A884A0072DDB6 /* PBXTargetDependency */,
+			);
+			name = PhotoStashTests;
+			productName = PhotoStashTests;
+			productReference = 378E6F1E202A884A0072DDB6 /* PhotoStashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		378E6F28202A884A0072DDB6 /* PhotoStashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378E6F38202A884A0072DDB6 /* Build configuration list for PBXNativeTarget "PhotoStashUITests" */;
+			buildPhases = (
+				E8A8C3FE2A3978BF756C1D79 /* [CP] Check Pods Manifest.lock */,
+				378E6F25202A884A0072DDB6 /* Sources */,
+				378E6F26202A884A0072DDB6 /* Frameworks */,
+				378E6F27202A884A0072DDB6 /* Resources */,
+				2FAEBBC780D7A94A50C9ECAB /* [CP] Embed Pods Frameworks */,
+				C9A6F8B7CCDCC44F3A114A67 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378E6F2B202A884A0072DDB6 /* PBXTargetDependency */,
+			);
+			name = PhotoStashUITests;
+			productName = PhotoStashUITests;
+			productReference = 378E6F29202A884A0072DDB6 /* PhotoStashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378E6F02202A884A0072DDB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = photostash;
+				TargetAttributes = {
+					378E6F09202A884A0072DDB6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					378E6F1D202A884A0072DDB6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 378E6F09202A884A0072DDB6;
+					};
+					378E6F28202A884A0072DDB6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 378E6F09202A884A0072DDB6;
+					};
+				};
+			};
+			buildConfigurationList = 378E6F05202A884A0072DDB6 /* Build configuration list for PBXProject "PhotoStash" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378E6F01202A884A0072DDB6;
+			productRefGroup = 378E6F0B202A884A0072DDB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378E6F09202A884A0072DDB6 /* PhotoStash */,
+				378E6F1D202A884A0072DDB6 /* PhotoStashTests */,
+				378E6F28202A884A0072DDB6 /* PhotoStashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378E6F08202A884A0072DDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37942B4420424D3500249191 /* OpenSans-Regular.ttf in Resources */,
+				D99653CE20869F570094D209 /* GoogleService-Info.plist in Resources */,
+				378E6F18202A884A0072DDB6 /* LaunchScreen.storyboard in Resources */,
+				37AE416F202BC3830070FC41 /* GoogleService-Info.plist in Resources */,
+				378E6F15202A884A0072DDB6 /* Assets.xcassets in Resources */,
+				37B6290F207A69A200E965D3 /* TagCell.xib in Resources */,
+				37942B4520424D3500249191 /* OpenSans-SemiBold.ttf in Resources */,
+				378E6F13202A884A0072DDB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378E6F1C202A884A0072DDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AE4170202BC3830070FC41 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378E6F27202A884A0072DDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AE4171202BC3830070FC41 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F0ED8E415ACD30EF54BF5AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoStashTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FAEBBC780D7A94A50C9ECAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStashUITests/Pods-PhotoStashUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ABEFD97AB38DF50222C4C8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		525E357B56F2989F7275B5DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoStash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F75892304EA1C0EB367850 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStashTests/Pods-PhotoStashTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A6F8B7CCDCC44F3A114A67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStashUITests/Pods-PhotoStashUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF5662BB205F29C1052519BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStashTests/Pods-PhotoStashTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A8C3FE2A3978BF756C1D79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoStashUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC99640A14F9A03DA1B550E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework",
+				"${BUILT_PRODUCTS_DIR}/XLActionController/XLActionController.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLActionController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoStash/Pods-PhotoStash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378E6F06202A884A0072DDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ACE6E22040DCD8004B3B55 /* Photo.swift in Sources */,
+				37EC69012033C06B009ECC21 /* AlbumCollectionViewCell.swift in Sources */,
+				371121B3207E57AE00210B5F /* AlbumInvite.swift in Sources */,
+				37ACE6E02040DB97004B3B55 /* PhotosViewController.swift in Sources */,
+				7FBFED12202E73F800766DCA /* SignUpViewController.swift in Sources */,
+				D93EE7352083CBF1002A4C43 /* User.swift in Sources */,
+				37FF517E20377FC100E81150 /* AlbumsViewController.swift in Sources */,
+				378E6F10202A884A0072DDB6 /* ViewController.swift in Sources */,
+				37FF5180203784E200E81150 /* AlbumTableViewCell.swift in Sources */,
+				374154CE2083069400D7F0D9 /* RegisterNameViewController.swift in Sources */,
+				37644F4E20423319001ACC1E /* DataHandler.swift in Sources */,
+				7FBFED1A20337F9100766DCA /* AlbumCollectionViewController.swift in Sources */,
+				37A07133203BE92300F85C7F /* CreateAlbumViewController.swift in Sources */,
+				372B1088207A6AC000521921 /* TagCell.swift in Sources */,
+				378E6F0E202A884A0072DDB6 /* AppDelegate.swift in Sources */,
+				372B108A207A6E0400521921 /* FlowLayout.swift in Sources */,
+				37D9450B2083AEAC001E67B9 /* RegisterPasswordViewController.swift in Sources */,
+				37ACE6E42040E06C004B3B55 /* PhotoCollectionViewCell.swift in Sources */,
+				37644F4C20422ED0001ACC1E /* LoginViewController.swift in Sources */,
+				37EC68FA2033BAE0009ECC21 /* Album.swift in Sources */,
+				3717DD07207D10A400E8512C /* SelectTimeTableViewCell.swift in Sources */,
+				371121B1207E556500210B5F /* AlbumInvitationTableViewController.swift in Sources */,
+				37D945092083AE9A001E67B9 /* RegisterEmailViewController.swift in Sources */,
+				379E214E2080FEDB004A0A96 /* PhotoStashAlertController.swift in Sources */,
+				371121AF207E51B600210B5F /* InviteTableViewCell.swift in Sources */,
+				37EC68FC2033BB2F009ECC21 /* FakeData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378E6F1A202A884A0072DDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378E6F23202A884A0072DDB6 /* PhotoStashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378E6F25202A884A0072DDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378E6F2E202A884A0072DDB6 /* PhotoStashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		378E6F20202A884A0072DDB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378E6F09202A884A0072DDB6 /* PhotoStash */;
+			targetProxy = 378E6F1F202A884A0072DDB6 /* PBXContainerItemProxy */;
+		};
+		378E6F2B202A884A0072DDB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378E6F09202A884A0072DDB6 /* PhotoStash */;
+			targetProxy = 378E6F2A202A884A0072DDB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		378E6F11202A884A0072DDB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378E6F12202A884A0072DDB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378E6F16202A884A0072DDB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378E6F17202A884A0072DDB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378E6F30202A884A0072DDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		378E6F31202A884A0072DDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378E6F33202A884A0072DDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F0C0B0A74CC4E2044971BF /* Pods-PhotoStash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6HB6E9SALG;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = PhotoStash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = photostash.PhotoStash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		378E6F34202A884A0072DDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1171A0ACB98B92F164405442 /* Pods-PhotoStash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6HB6E9SALG;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = PhotoStash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = photostash.PhotoStash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		378E6F36202A884A0072DDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB3D14DA83B775CC1C191AA /* Pods-PhotoStashTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56QN9BM5HK;
+				INFOPLIST_FILE = PhotoStashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photostash.PhotoStashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoStash.app/PhotoStash";
+			};
+			name = Debug;
+		};
+		378E6F37202A884A0072DDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E7CC8E4FA47B8A354BEE8F /* Pods-PhotoStashTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56QN9BM5HK;
+				INFOPLIST_FILE = PhotoStashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photostash.PhotoStashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoStash.app/PhotoStash";
+			};
+			name = Release;
+		};
+		378E6F39202A884A0072DDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D483FD46D95793E73BE64886 /* Pods-PhotoStashUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56QN9BM5HK;
+				INFOPLIST_FILE = PhotoStashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photostash.PhotoStashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoStash;
+			};
+			name = Debug;
+		};
+		378E6F3A202A884A0072DDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4C8453AFA6FD9577671995 /* Pods-PhotoStashUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56QN9BM5HK;
+				INFOPLIST_FILE = PhotoStashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photostash.PhotoStashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoStash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378E6F05202A884A0072DDB6 /* Build configuration list for PBXProject "PhotoStash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378E6F30202A884A0072DDB6 /* Debug */,
+				378E6F31202A884A0072DDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378E6F32202A884A0072DDB6 /* Build configuration list for PBXNativeTarget "PhotoStash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378E6F33202A884A0072DDB6 /* Debug */,
+				378E6F34202A884A0072DDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378E6F35202A884A0072DDB6 /* Build configuration list for PBXNativeTarget "PhotoStashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378E6F36202A884A0072DDB6 /* Debug */,
+				378E6F37202A884A0072DDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378E6F38202A884A0072DDB6 /* Build configuration list for PBXNativeTarget "PhotoStashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378E6F39202A884A0072DDB6 /* Debug */,
+				378E6F3A202A884A0072DDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378E6F02202A884A0072DDB6 /* Project object */;
+}
